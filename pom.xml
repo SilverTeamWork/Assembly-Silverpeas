@@ -85,6 +85,24 @@
   </properties>
 
   <dependencies>
+    <!-- Component Wiki -->
+    <dependency>
+      <groupId>org.silverpeas.components.wiki</groupId>
+      <artifactId>silverpeas-wiki-war</artifactId>
+      <type>war</type>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.silverpeas.components.wiki</groupId>
+      <artifactId>silverpeas-wiki</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.silverpeas.components.wiki</groupId>
+      <artifactId>silverpeas-wiki-configuration</artifactId>
+      <version>${components.version}</version>
+    </dependency>
+
     <!-- Component SuggestionBox -->
     <dependency>
       <groupId>org.silverpeas.components.suggestionbox</groupId>
